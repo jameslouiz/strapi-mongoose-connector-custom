@@ -1,5 +1,5 @@
 {
-  "name": "my-mongoose-connector",
+  "name": "strapi-connector-mongoose",
   "version": "3.0.0-custom",
   "description": "Mongoose hook for the Strapi framework",
   "homepage": "http://strapi.io",
@@ -15,6 +15,7 @@
   },
   "main": "./lib",
   "dependencies": {
+    "git": "^0.1.5",
     "lodash": "^4.17.11",
     "mongoose": "5.8.0",
     "mongoose-float": "^1.0.4",
@@ -36,7 +37,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/strapi/strapi.git"
+    "url": "git://ithub.com:jameslouiz/strapi-mongoose-connector-custom.git"
   },
   "bugs": {
     "url": "https://github.com/strapi/strapi/issues"
